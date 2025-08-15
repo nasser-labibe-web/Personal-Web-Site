@@ -357,4 +357,9 @@ footer nav ul {
 footer nav a {
     text-decoration: none;
     color: #fbfbfb;
+    transition: all 0.3s ease;
+}
+
+footer nav a:hover {
+    transform: translate(0px, -5px);
 }
